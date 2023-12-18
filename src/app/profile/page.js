@@ -29,6 +29,11 @@ export default function Profile() {
                                         </div>
                                         <div className="profileRightBox ml-16 mt-8">
                                             <h2 className="text-5xl" style={{color: "white", fontFamily: "poppins"}}> Good evening Armaan! 👋🏻 </h2>
+                                            <br/>
+                                            <div className="didContainer mr-72">
+                                            <h3 className="text-xl" style={{color: "white",fontFamily: "sans-serif"}}>Your DID: d#@$32487cxX#23493r</h3>
+                                            <input type="button" value="Copy" className="copyBtn ml-6 background-whitesmoke"/>
+                                            </div>
                                         </div>
                                         </div>
                             </div>
