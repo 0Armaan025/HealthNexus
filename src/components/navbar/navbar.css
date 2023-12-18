@@ -12,6 +12,10 @@ li {
     font-family: 'Raleway', sans-serif;
 }
 
+li:hover {
+    text-decoration: underline;
+}
+
 .navBar {
     align-items: center;
     display: flex;

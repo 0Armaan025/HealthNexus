@@ -1,14 +1,19 @@
 * {
     cursor: none;
+    overflow: none;
 }
-body {
-    cursor: none;
+
+.signUpPage {
+    height: 130vh;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(38, 51, 97, 1) 0%, rgba(65, 143, 222, 1) 79%);
 }
-.loginPage {
-    height: 100vh;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
+.userTypes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.loginBox {
+.signUpBox {
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -20,15 +25,13 @@ body {
     margin-right: 22rem;
     box-shadow: 4px 2px 3px 2px black;
     margin-left: 22rem;
+    margin-bottom: 2rem;
 }
-.socialOptions {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
+.signUpBtn:hover {
+    background: rgb(0, 8, 82);
+
 }
-.loginBtn {
+.signUpBtn {
     outline: none;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -40,11 +43,13 @@ body {
     transition: 0.2s ease-in-out;
     background: rgb(0, 14, 142);
 }
-
-.loginBtn:hover {
-    background: rgb(1, 10, 91);
+.socialOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.loginBox h5:hover {
+.signUpBox h5:hover {
     text-decoration: underline;
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
 
             <img src="https://healthnexussolution.com/wp-content/uploads/2023/02/NextGen.png" height="55px" width="100px" alt="logo" className="logo mr-44"/>
 
-              <div className="centerItems mr-40 ml-32"><li>Home</li>
+              <div className="centerItems mr-40 ml-28"><li>Home</li>
             <li>Public datasets</li>
             <li>Marketplace</li>
             <li>About Us</li></div>
