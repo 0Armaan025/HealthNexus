@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="navBar">
             {/* some items */}
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLshDFdF2EfEYlVII1WkdK1BCspCwoj8Fztw&usqp=CAU" height="55px" width="100px" alt="logo" className="logo mr-44"/>
+            <img src="https://healthnexussolution.com/wp-content/uploads/2023/02/NextGen.png" height="55px" width="100px" alt="logo" className="logo mr-44"/>
 
               <div className="centerItems mr-40 ml-32"><li>Home</li>
             <li>Public datasets</li>
