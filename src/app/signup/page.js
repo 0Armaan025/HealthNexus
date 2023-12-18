@@ -32,7 +32,7 @@ export default function SignUp() {
                                 <br/>
                                 <input type="button" value="Sign Up" className='signUpBtn rounded shadow-2xl'/>
                                 <br/>
-                                <h5><b>Or</b></h5>
+                                <h4><b>Or</b></h4>
                                 <h5 className='ml-44'>New to the platform?</h5>
                                 <div className='socialOptions'>
                                     <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" height="50px" width="40px" className='rounded-lg m-4'/>

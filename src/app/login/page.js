@@ -24,7 +24,7 @@ export default function Login() {
                                 <input type="email" placeholder='Enter your email' className='pl-6 pr-6 pt-2 pb-2  rounded shadow-2xl' style={{color: "white"}}/>
                                 <input type="password" placeholder='Enter your password' className='pl-6 pr-6 pt-2 pb-2 m-4  rounded shadow-2xl' style={{color: "white"}}/>
                                 <input type="button" value="Login" className='loginBtn rounded shadow-2xl'/>
-                                <h5><b>Or</b></h5>
+                                <h4><b>Or</b></h4>
                                 <h5 className='ml-44'>Already a user?</h5>
                                 <div className='socialOptions'>
                                     <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" height="50px" width="40px" className='rounded-lg m-4'/>
