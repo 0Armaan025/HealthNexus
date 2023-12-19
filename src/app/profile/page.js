@@ -60,7 +60,7 @@ export default function Profile() {
                                     steps={[
                                         "More people can be treated because of data submitted by you. 🤩",
                                         2000,
-                                        'You have earned $5 in crypto yet. 🤑',
+                                        'You have submitted 2 GBs of Data. 📊',
                                         2000,
                                     ]}
                                     wrapper="p"
@@ -70,6 +70,11 @@ export default function Profile() {
                             </div>
 
                             </div>
+
+                            <br/>
+                            <br/>
+
+                            <button className="createHealthRecordBtn mt-8">+ Create a new record.</button>
                         </div>
                     </div>
                 </div>
