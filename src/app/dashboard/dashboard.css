@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -30,4 +31,29 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 45px;
+}
+.dataInformationContainer {
+    width: 320px;
+    margin: 10px;
+    color: white;
+    
+    padding: 1rem;
+    border-radius: 12px;
+    background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+}
+.dataInformationContainer h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.dataInformationContainer h5 {
+    font-family: 'Diphylleia', serif;
+}
+
+
+.statDivsRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

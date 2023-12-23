@@ -19,12 +19,15 @@ export default function Profile() {
 
                     <div className="profileBoxes">
                         <div className="profileSideBar">
-                            <ul>
+                        <ul>
                                 <li>Profile</li>
                                 <hr />
                                 <li>Dashboard</li>
                                 <hr />
+                                
+                                <li>Access requests</li>
                                 <li>Optimizations</li>
+                                <hr />
 
                             </ul>
                         </div>

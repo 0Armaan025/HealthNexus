@@ -3,48 +3,13 @@ import CustomCursor from "@/components/cursor/Cursor";
 import RootLayout from "../layout";
 import './dashboard.css';
 import Navbar from "@/components/navbar/Navbar";
+import MyBarChart from "@/components/barchart/BarChart";
 
-import { useEffect } from "react"
-import { Chart } from "chart.js";
 
 export default function Dashboard() {
 
 
-    useEffect(() => {
-           var ctx = document.getElementById('myChart').getContext('2d');
-           var myChart = new Chart(ctx, {
-             type: 'bar',
-             data: {
-               labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-                datasets: [{
-                  data: [86, 114, 106, 106, 107, 111, 133],
-                  label: "Applied",
-                  borderColor: "#3e95cd",
-                  backgroundColor: "#7bb6dd",
-                  fill: false,
-                }, {
-                  data: [70, 90, 44, 60, 83, 90, 100],
-                  label: "Accepted",
-                  borderColor: "#3cba9f",
-                  backgroundColor: "#71d1bd",
-                  fill: false,
-                }, {
-                  data: [10, 21, 60, 44, 17, 21, 17],
-                  label: "Pending",
-                  borderColor: "#ffa500",
-                  backgroundColor: "#ffc04d",
-                  fill: false,
-                }, {
-                  data: [6, 3, 2, 2, 7, 0, 16],
-                  label: "Rejected",
-                  borderColor: "#c45850",
-                  backgroundColor: "#d78f89",
-                  fill: false,
-                }
-                ]
-              },
-            });
-          }, [])
+    
 
     return (
         <>
@@ -63,7 +28,11 @@ export default function Dashboard() {
                                 <hr />
                                 <li>Dashboard</li>
                                 <hr />
+                                
+                                <li>Access requests</li>
+                                <hr/>
                                 <li>Optimizations</li>
+                                
 
                             </ul>
                         </div>
@@ -76,14 +45,60 @@ export default function Dashboard() {
                             <h4 className="text-2xl mt-2" style={{color: "grey"}}>
                                 You can get insightful information here!
                                 </h4>
+
+                                <br/>
+                                
+                            <div className="statDivsRows">
+
+                              <div className="dataInformationContainer">
+                              <h3>
+                                 Data information(1):
+                               </h3>
+
+                               <h5>
+                                You have helped 311 researchers to know more about diseases. ✨
+                               </h5>
+                              </div>
+
+                              <div className="dataInformationContainer">
+                              <h3>
+                                 Data information(2):
+                               </h3>
+
+                               <h5>
+                                 Records submitted: 12. 🔥
+                               </h5>
+                              </div>
+
+                              <div className="dataInformationContainer">
+                              <h3>
+                                 Data information(3):
+                               </h3>
+
+                               <h5>
+                                 Records accessed: 5🧑🏻‍⚕️
+                               </h5>
+                              </div>
+
+                              </div>
+                              <br/>
+
+                              <center>
+                                <h1 style={{color: "white", fontSize: "32px", fontWeight: "bold"}}>More Stats coming soon...</h1>
+                                <h3 style={{color: "white"}}>Please keep an eye on updates and eat a pizza meanwhile... 🍕</h3>
+                              </center>
+                              
+                 
+                                
                         </div>
+
+                        
+
+
                     </div>
                 </div>
-                <div className="w-[1100px] h-screen flex mx-auto my-auto">
-        <div className='border border-gray-400 pt-0 rounded-xl  w-full h-fit my-auto  shadow-xl'>
-          <canvas id='myChart'></canvas>
-        </div>
-      </div>
+               
+      
             </RootLayout>
         </>
     );
