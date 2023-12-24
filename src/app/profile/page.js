@@ -26,8 +26,9 @@ export default function Profile() {
                                 <hr />
                                 
                                 <li>Access requests</li>
-                                <li>Optimizations</li>
                                 <hr />
+                                <li>Optimizations</li>
+                                
 
                             </ul>
                         </div>

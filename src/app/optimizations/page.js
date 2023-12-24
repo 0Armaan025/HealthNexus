@@ -4,6 +4,9 @@ import CustomCursor from "@/components/cursor/Cursor";
 import RootLayout from "../layout";
 import './optimizations.css';
 
+import {
+    TuiDateTimePicker
+  } from 'nextjs-tui-date-picker';
 import Typical from 'react-typical';
 import Navbar from "@/components/navbar/Navbar";
 import React from "react";
@@ -29,6 +32,11 @@ export default function Profile() {
             label: "Ask every time before uploading data",
         }
     ];
+
+    const options = {
+        language: 'en',
+        format: 'MM-dd YYYY',
+      };
 
     return (
         <>
@@ -119,8 +127,19 @@ export default function Profile() {
                         <span class="slider round"></span>
                     </label>
                     <hr className="mt-2 mb-2"/>
+
+                    <label className="text-xl text-white font-bold">Automate stoppage of data sharing using date and time</label>
+                    <TuiDateTimePicker
+    handleChange={(date) => console.log(date)}
+    date={new Date('2023-01-01')}
+    inputWidth={140}
+    fontSize={16}
+/>
+                    <hr className="mt-2 mb-2"/>
                     <h4 className="text-white text-2xl mb-4 font-extrabold" style={{fontFamily: "Poppins"}}>Danger zone!</h4>
                     <button className="revokeAccessBtn">Revoke Access</button>
+
+                    
                     </div>
 
 <br/><br/>
