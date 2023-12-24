@@ -6,8 +6,8 @@
 }
 
 .optimizationsPage {
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
+    height: 110vh;
     background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
 }
 .profileBoxes {
@@ -16,7 +16,7 @@
 }
 
 .profileSideBar {
-    height: 85vh;
+    height:120vh;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     align-items: center;
@@ -77,3 +77,87 @@
     cursor: none;
     background: rgb(36, 0, 36);
 }
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .revokeAccessBtn {
+        border: 2px solid whitesmoke;
+        padding: 0.5rem;
+        border-radius: 4px ;
+        color: white;
+        background-color: rgb(99, 0, 0);
+  }
+
+  .revokeAccessBtn:hover {
+    
+    background-color: rgb(128, 0, 0);
+  }
+
+  .optionsBigBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 8px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  } 
