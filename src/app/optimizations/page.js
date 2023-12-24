@@ -26,6 +26,7 @@ export default function Profile() {
                                 <li>Dashboard</li>
                                 <hr />
 
+
                                 <li>Access requests</li>
                                 <hr/>
                                 <li>Optimizations</li>
@@ -35,7 +36,7 @@ export default function Profile() {
                         </div>
                         <div className="profileRightBox ml-16 mt-8">
 
-                            <h1> You can choose a ton of options required from here </h1>
+                            <h1 className="text-3xl" style={{color: "white"}}> You can choose a ton of options required from here </h1>
 
                                 
 
