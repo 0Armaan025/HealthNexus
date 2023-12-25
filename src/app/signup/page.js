@@ -20,6 +20,7 @@ export default function SignUp() {
                         <div className="signUpBox rounded">
                                 <h2 className='font-bold text-4xl p-4 mb-4' style={{color: "black"}}> Sign Up Time! </h2>
                                 <input type="email" placeholder='Enter your name' className='pl-6 pr-6 pt-2 pb-2  rounded shadow-2xl' style={{color: "white"}}/>
+                                <input type="email" placeholder='Enter your bio' className='pl-6 pr-6 pt-2 pb-2 mt-2 h-16  rounded shadow-2xl' style={{color: "white"}}/>
                                 <input type="email" placeholder='Enter your email' className='pl-6 pr-6 pt-2 pb-2 mt-2  rounded shadow-2xl' style={{color: "white"}}/>
                                 <input type="password" placeholder='Enter your password' className='pl-6 pr-6 pt-2 pb-2 mt-2 mb-4  rounded shadow-2xl' style={{color: "white"}}/>
                                 <br/>
