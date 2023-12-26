@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.recordTile {
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    width: 140vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2px 1px 1px 2px black;
+}
+.recordTileTextInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.recordTileBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.recordTileViewBtn {
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    background: purple;
+    transition: 0.2s ease-in;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.recordTileViewBtn:hover {
+    background: rgb(65, 0, 65);
+    cursor: pointer;
+}
+.recordTileUploadBtn {
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    background: red;
+    transition: 0.2s ease-in;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.recordTileUploadBtn:hover {
+    background:rgb(152, 0, 0);
+    cursor: pointer;
+}

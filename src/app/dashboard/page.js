@@ -23,15 +23,18 @@ export default function Dashboard() {
 
                     <div className="profileBoxes">
                         <div className="profileSideBar">
-                            <ul>
+                        <ul>
                                 <li>Profile</li>
                                 <hr />
                                 <li>Dashboard</li>
                                 <hr />
                                 
+                                <li>My records</li>
+                                <hr />
                                 <li>Access requests</li>
-                                <hr/>
+                                <hr />
                                 <li>Optimizations</li>
+                                
                                 
 
                             </ul>

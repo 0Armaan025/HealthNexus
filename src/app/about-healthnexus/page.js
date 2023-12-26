@@ -42,7 +42,7 @@ export default function AboutUs() {
                     </ScrollContent>
 
                     <center>
-                            <h4 className="text-white font-2xl mt-44">Made with 💖 by Armaan in Web5.js hackathon that incorporates web5.js, blockchain network, firebase integration, tailwind css, NextJS and a lot more!</h4>
+                            <h4 className="text-white font-2xl mt-44">Made with 💖 by Armaan in Web5.js hackathon that incorporates web5.js, blockchain network,firebase integration, tailwind css, NextJS and a lot more!</h4>
                         </center>
 
                 </div>

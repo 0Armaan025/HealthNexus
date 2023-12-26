@@ -25,9 +25,12 @@ export default function Profile() {
                                 <li>Dashboard</li>
                                 <hr />
                                 
+                                <li>My records</li>
+                                <hr />
                                 <li>Access requests</li>
                                 <hr />
                                 <li>Optimizations</li>
+                                
                                 
 
                             </ul>
