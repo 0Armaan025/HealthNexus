@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.accessRequestTile {
+    background: white;
+    padding: 0.7rem;
+    width: 50vh;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+.accessRequestTileButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.viewRecordTileBtn {
+    padding: 0.5rem;
+    background: purple;
+    color: white;
+    margin: 4px;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.acceptRecordTileBtn {
+    padding: 0.5rem;
+    background: green;
+    color: white;
+    margin: 4px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.declineRecordTileBtn {
+    padding: 0.5rem;
+    background: rgb(181, 0, 0);
+    color: white;
+    transition: 0.3s ease-in-out;
+    margin: 4px;
+    border-radius: 8px;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.viewRecordTileBtn:hover {
+    background: rgb(80, 0, 80);
+    cursor: pointer;
+}
+
+.acceptRecordTileBtn:hover {
+    background: rgb(0, 82, 0);
+}
+
+.declineRecordTileBtn:hover {
+    background: rgb(84, 0, 0);
+}

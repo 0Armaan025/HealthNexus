@@ -12,7 +12,7 @@ const Navbar = () => {
               <div className="centerItems mr-40 ml-28"><li>Home</li>
             <li>Public datasets</li>
             <li>Marketplace</li>
-            <li>About Us</li></div>
+            <li>About HealthNexus</li></div>
           
             <img src="https://cdn.pixabay.com/photo/2017/02/23/13/05/avatar-2092113_1280.png" height="60px" width="60px" alt="logo" className="logo ml-44"/>
         </div>  

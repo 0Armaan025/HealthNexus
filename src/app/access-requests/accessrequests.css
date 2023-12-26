@@ -10,6 +10,13 @@
     flex-direction: row;
 }
 
+.myRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .profileSideBar {
     height: 85vh;
     font-weight: bold;
